@@ -365,9 +365,9 @@ export default function Map() {
                 <div>
                   <div className="flex items-center gap-2 mb-0.5">
                     <div className="w-2 h-2 rounded-full bg-indigo-400 relative pulse-dot" style={{ color: '#818cf8' }}></div>
-                    <span style={{ fontSize: 11, letterSpacing: '0.12em', color: '#6366f1', fontWeight: 600, textTransform: 'uppercase' }}>AirRoute</span>
+                    <span style={{ fontSize: 11, letterSpacing: '0.12em', color: '#6366f1', fontWeight: 600, textTransform: 'uppercase' }}>ClearCommute:</span>
                   </div>
-                  <h1 style={{ fontSize: 18, fontWeight: 700, color: '#f1f5f9', lineHeight: 1.2 }}>Smart Air Navigation</h1>
+                  <h1 style={{ fontSize: 18, fontWeight: 700, color: '#f1f5f9', lineHeight: 1.2 }}>Smart Healthy Navigation</h1>
                 </div>
                 {user && (
                   <div style={{ display: 'flex', alignItems: 'center' }}>
