@@ -353,14 +353,14 @@ export default function Map() {
 
       {/* SIDEBAR PANEL */}
       <div
-        className={`relative z-10 h-full flex flex-col glass-panel transition-all duration-300 ${panelOpen ? 'w-full max-w-[360px]' : 'w-0 overflow-hidden'}`}
+        className={`relative z-10 h-full flex flex-col glass-panel transition-all duration-300 ${panelOpen ? 'w-full max-w-90' : 'w-0 overflow-hidden'}`}
         style={{ minWidth: panelOpen ? undefined : 0, flexShrink: 0 }}
       >
         {panelOpen && (
           <div className="flex flex-col h-full overflow-hidden">
 
             {/* Header */}
-            <div className="px-5 pt-5 pb-4 flex-shrink-0">
+            <div className="px-5 pt-5 pb-4 shrink-0">
               <div className="flex items-center justify-between mb-4">
                 <div>
                   <div className="flex items-center gap-2 mb-0.5">
