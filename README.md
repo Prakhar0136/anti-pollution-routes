@@ -78,7 +78,7 @@ create policy "Users can insert their own routes" on saved_routes for insert wit
 create policy "Users can delete their own routes" on saved_routes for delete using (auth.uid() = user_id);
 
 
-###DEPLOYMENT:
+### DEPLOYMENT:
 
 This project is optimized for deployment on Vercel.
 Push your code to GitHub.
